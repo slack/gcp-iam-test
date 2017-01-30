@@ -1,0 +1,9 @@
+package: github.com/ultimateboy/gcp-iam-test
+import:
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/api
+  subpackages:
+  - iam/v1
+  - pubsub/v1
